@@ -18,6 +18,7 @@ Done -> Hostname molto lungo → >60 caratteri = strano, >100 = molto sospetto.
 
 Done -> Troppi subdomini → 4 o più livelli (a.b.c.d.example.com) → possibile infrastruttura offuscata.
 
+
 Done -> Label randomizzata → sequenze tipo a9sd0f3k4jdl, molto numeri/lettere mescolati.
 
 
