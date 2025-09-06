@@ -10,8 +10,6 @@ import (
 
 /*
 Done -> TLD rischiosi → .ru, .cn, .su, .xyz, .top, .club, .info, .tk, .pw, .gq, .cf, .ml, .zip, .mov, ecc.
-Reverse DNS mancante → nessun nome per l’IP → più sospetto.
-
 
 Done -> Provider hosting generici → AWS, GCP, Azure, OVH, Hetzner, DigitalOcean, Cloudflare, Akamai, Fastly, Vercel, Netlify, Heroku. → da ricontrollare.
 
@@ -23,7 +21,7 @@ Done -> Troppi subdomini → 4 o più livelli (a.b.c.d.example.com) → possibil
 Done -> Label randomizzata → sequenze tipo a9sd0f3k4jdl, molto numeri/lettere mescolati.
 
 
-Domain squatting → nomi che imitano brand famosi con aggiunte (paypal-login.net, google-verify.xyz).
+Done -> Domain squatting → nomi che imitano brand famosi con aggiunte (paypal-login.net, google-verify.xyz).
 
 */
 var reRand = regexp.MustCompile(`^[a-z0-9-]{12,}$`)
